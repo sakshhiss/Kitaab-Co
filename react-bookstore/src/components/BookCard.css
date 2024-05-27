@@ -1,0 +1,23 @@
+.separator1 {
+  height: 8px;
+  width: 200px;
+  background-color: #313035;
+  border: none;
+  margin: 0 auto;
+}
+
+div {
+  font-family: "Raleway", sans-serif;
+}
+
+h5 {
+  font-family: "Playfair Display", serif;
+  color: #ed64a6;
+}
+
+.price {
+  font-family: "Playfair Display", serif;
+  color: #313035;
+  font-weight: 500;
+  font-size: 18px;
+}
