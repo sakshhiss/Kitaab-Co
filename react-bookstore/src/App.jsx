@@ -6,8 +6,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import AdminPanel from "./components/AdminPanel";
 import CreatePost from "./components/CreatePost";
-import ProtectedRoute from "./components/ProtectedRoute"; // Custom component to protect routes
-import { AuthProvider } from "./components/AuthContext"; // Import AuthProvider
+import ProtectedRoute from "./components/ProtectedRoute"; 
+import { AuthProvider } from "./components/AuthContext"; 
 
 const App = () => {
   return (

@@ -19,8 +19,7 @@ const useAuth = () => {
       const currentTime = Date.now();
       const elapsedTime = currentTime - parseInt(loginTime, 10);
 
-      if (elapsedTime > 3600000) {
-        // 1 hour in milliseconds
+      if (elapsedTime > 3600000) {  // 1 hour in milliseconds
         sessionStorage.removeItem("token");
         sessionStorage.removeItem("loginTime");
         navigate("/", {
@@ -35,7 +34,7 @@ const useAuth = () => {
     checkSession();
 
     // Set interval to check session every minute
-    const interval = setInterval(checkSession, 60000); // 60,000 ms = 1 minute
+    const interval = setInterval(checkSession, 60000); 
 
     // Cleanup interval on component unmount
     return () => clearInterval(interval);
